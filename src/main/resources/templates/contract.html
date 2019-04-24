@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<title>发货单</title>
+	<style type="text/css">
+		html{ font-family: SimSun;}
+	 	body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre, 
+        form,fieldset,input,textarea,p,blockquote,th,td {
+            padding: 0; 
+            margin: 0; 
+        }
+        .clearFix:after{
+            content: " ";
+            display: block;
+            clear: both;
+        }
+		.fl{ float: left;}
+		.fr{ float: right;}
+		.title{margin-bottom:5px;}
+		.company_name{padding-left:30px;}
+		.number{ padding-left:30px;padding-right:30px;}
+		.table td{height:35px;}
+		.contract_number,.delivery_date{line-height: 28px;}
+	</style>
+</head>
+<body>
+<div>
+	<div class="title clearFix">
+		<p class="fl"><span class="company_name" style="padding-left:100px;margin-top: 0px" >上海宝信软件股份有限公司</span></p>
+		<p class="fr">
+			<span class="number" >11111111111</span>
+			<span></span>
+		</p>
+	</div>
+	<div style="margin-top: 4px;padding-left:30px;margin-right:50px;">
+		<table border="0" cellspacing="0" cellpadding="0" width="100%" class="table">
+			<thead>
+			<th align="center" text=""></th>
+			<th align="center" text=""></th>
+			<th align="center" text=""></th>
+			<th align="center" text=""></th>
+			<th align="center" text=""></th>
+			<th align="center" text=""></th>
+			<th align="center" text=""></th>
+			</thead>
+			<tbody>
+			<tr>
+				<td align="center" width="20%"></td>
+				<td align="center" width="10%"></td>
+				<td align="center" width="15%"></td>
+				<td align="center" width="10%"></td>
+				<td align="center" width="10%"></td>
+				<td align="center" rowspan="2" width="17%">
+					<span style="margin-top: 20px"></span>
+					<span >京A123456</span>
+					<span >自提</span>
+				</td>
+				<td align="center" rowspan="2" width="17%">
+					<span style="margin-top: 20px"></span>
+					<span >请尽快发货</span>
+				</td>
+			</tr>
+			<tr>
+				<td >碳酸钾-20kg</td>
+				<td >123456</td>
+				<td >20kg</td>
+				<td >10</td>
+				<td>
+					<span>4.000kg</span>
+				</td>
+			</tr>
+			</tbody>
+		</table>
+		<p class="contract_number"><span style="padding-left:60px;"><span >1234567890987</span></span></p>
+		<p class="delivery_date clearFix" style="width:100%;margin-top: 10px">
+		<p class="fr" style="margin-right:40px;">
+			<span style="margin-right:33px;">2019</span>
+			<span style="margin-right:17px;">02</span>
+			<span style="margin-right:1px;">14</span>
+		</p>
+		</p>
+	</div>
+</div>
+</body>
+</html>

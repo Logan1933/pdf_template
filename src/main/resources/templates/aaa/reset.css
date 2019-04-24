@@ -1,0 +1,127 @@
+body, div, dl, dt, dd, ul, ol, li,h1, h2, h3, h4, h5, h6, pre, code,form, fieldset, legend, input, button,textarea, p, blockquote, th, td {margin: 0; padding: 0;}
+fieldset, img {border: 0;}
+/* remember to define focus styles! */
+:focus {outline: 0;}
+address, caption, cite, code, dfn,em, strong, th, var, optgroup {font-style: normal;font-weight: normal;}
+h1, h2, h3, h4, h5, h6 {font-weight: normal;}
+abbr, acronym {border: 0;font-variant: normal;}
+input, button, textarea,select, optgroup, option {font-family: normal;font-size: normal;font-style: inherit;font-weight: inherit;}
+code, kbd, samp, tt {font-size: 100%;}
+ol, ul,li {list-style: none;}
+em, i { font-style: normal; font-weight: normal;}
+/* tables still need 'cellspacing="0"' in the markup */
+table {border-collapse: collapse;border-spacing: 0;}
+caption, th {text-align: left;}
+sup, sub {font-size: 100%;vertical-align: baseline;}
+/* remember to highlight anchors and inserts somehow! */
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}
+/* remember to highlight inserts somehow! */
+ins {text-decoration: none;}
+del {text-decoration: line-through;}
+
+a {text-decoration: none;}
+:link, :visited {text-decoration: none;}
+
+/*@purpose To enable resizing for IE */
+/*@branch For IE6-Win, IE7-Win */
+input, button, textarea, select {*font-size: 100%;}
+
+.clearfix:after,.clearfix:before {content: ".";display: block; width: 0;height: 0;font-size:0;clear: both;visibility: hidden;}
+.clearfix { display: inline-block; zoom: 1;}
+* html .clearfix{zoom:1;}/* ie6 */
+*:first-child+html .clearfix{zoom:1;} /* ie7 */
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+html {color: #4a4a4a;background: #FFF;}
+body { font-family: "Microsoft YaHei", "微软雅黑", "宋体"; font-size:14px;/*line-height: 1.5;*/}
+textarea { resize: vertical;  font-size: 14px; text-decoration: none;}
+
+a{ color:#4a4a4a; text-decoration:none;}
+a:hover{ color:#0a529c;}
+a.opacity:hover{opacity:0.8; filter:alpha(opacity=80);}
+input{font-family:"微软雅黑";}
+input{  border:none;}
+input.not_text{ background-color:#949693; color:#fff;}
+.left{ float:left;}
+.right{ float:right;}
+.clear{ clear:both;}
+.border_none,img{ border:none;}
+.background_none{ background:none;}
+.blue{ color:#0e509a;}
+.red{ color:#bd2022;}
+.back_red{ background-color:#bd2022;}
+.back_blue{background-color:#0e509a;}
+
+.padding_5{ padding-left:5px;}
+.margin_5{ margin-left:5px;_margin-left:5px;}
+.margin_10{ margin-left:10px;_margin-left:10px;}
+.small_p{ font-size:12px;}
+.small_i{font-size:12px; font-style:normal;}
+.border_1{ border:solid 1px #dddddc;}
+.center{ text-align:center;}
+
+
+.pt5 { padding-top: 5px!important;}
+.pt10 { padding-top: 10px!important;}
+.pt20 { padding-top: 20px!important;}
+.pt30 { padding-top: 30px!important;}
+.pt50 { padding-top: 50px!important;}
+
+.mt5 { margin-top: 5px!important;}
+.mt10 { margin-top: 10px!important;}
+.mt15 { margin-top: 15px!important;}
+.mt20 { margin-top: 20px!important;}
+.mt30 { margin-top: 30px!important;}
+.mt50 { margin-top: 50px!important;}
+
+.mb5 { margin-bottom: 5px!important;}
+.mb10 { margin-bottom: 10px!important;}
+.mb20 { margin-bottom: 20px!important;}
+.mb30 { margin-bottom: 30px!important;}
+.mb50 { margin-bottom: 50px!important;}
+
+
+.ml5 { margin-left: 5px!important;}
+.ml10 { margin-left: 10px!important;}
+.ml20 { margin-left: 20px!important;}
+.ml30 { margin-left: 30px!important;}
+.ml15 { margin-left: 15px!important;}
+
+.mr50 { margin-right: 50px!important;}
+.mr30 { margin-right: 30px!important;}
+.mr20 { margin-right: 20px!important;}
+.mr10 { margin-right: 10px!important;}
+.mr5 { margin-right: 5px!important;}
+
+.tl { text-align: left;}
+.tr { text-align: right;}
+.tc { text-align: center;}
+
+
+
+.strong_big_cu{ color:#bd2022; font-size:16px; font-weight:bold; padding:0px 3px;}
+.strong_big_cu_hui_shan{ text-decoration:line-through; font-weight:bold; color:#7f7c7c;}
+
+.td_text_right{ text-align:right !important;}
+.elli_space{white-space:normal; overflow:hidden; text-overflow:ellipsis;}
+
+/*---无边框--*/
+.b_left_none{ border-left:none!important;}
+.b_right_none{ border-right:none!important;}
+.b_top_none{ border-top:none!important;}
+.b_bottom_none{ border-bottom:none!important;}
+/*---带边框--*/
+.b_left{ border-left:solid 1px #dddfe1!important;}
+.b_right{ border-right:solid 1px #dddfe1!important;}
+.b_top{ border-top:solid 1px #dddfe1!important;}
+.b_bottom{ border-bottom:solid 1px #dddfe1!important;}
+
+
+/*--字体大小--*/
+.font18{font-size:18px;}
+
+
